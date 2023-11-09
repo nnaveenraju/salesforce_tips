@@ -1,5 +1,5 @@
 // adjust the subscriber consumtion rate:
-
+/*
 # To configure the platform event processing size, run the following on workbench:
 Post:
 /services/data/v57.0/tooling/sobjects/PlatformEventSubscriberConfig
@@ -15,3 +15,4 @@ Post:
 GET:
 /services/data/v57.0/tooling/sobjects/PlatformEventSubscriberConfig/3JK5300XXXXXXC
 
+*/
