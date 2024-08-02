@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+<!-- IMPORTANT: Deploy Site start
+*** 
+1. For deploying all sites, use * under memebers
+2. If you need specific sites, please specify the appropriate name/(s)
+-->
+
+<!-- Deploy NavigationMenu First (alone without the others) -->
+    <types>
+        <members>SFDC_Default_Navigation_Service</members>
+        <name>NavigationMenu</name>
+    </types>
+
+<!-- Once the NavigationMenu is deployed, then deploy the following ( without the NavigationMenu) -->
+    <types>
+        <members>Service</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Service1</members>
+        <name>ExperienceBundle</name>
+    </types>
+    <types>
+        <members>Service</members>
+        <name>Network</name>
+    </types>
+ <!-- Site deploy end -->
+
+    <version>58.0</version>
+</Package>
