@@ -9,7 +9,7 @@
      this.childProps = { showFirstNext: true, showAdd: true, showItemEdit: false, showItemView: false,  itemRecordId: ''};
 
      //the following will call the line 21 below ( which will be the model LWC)
-+    this.template.querySelector("c-connexa-a-e-m-p-new-item").openViewOrEditFromParent(this.childProps);
++    this.template.querySelector("c-aaa-a-e-m-p-new-item").openViewOrEditFromParent(this.childProps);
 +    this.openModal();
    }
 
